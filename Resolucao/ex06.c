@@ -2,7 +2,7 @@
 #include <math.h>
 
 void main(){
-    double n, raiz, raiz_negativa;
+    double n, raiz;
     
     printf("Digite um número: ");
     scanf("%lf", &n);
