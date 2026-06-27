@@ -6,6 +6,6 @@ void main(){
     
     printf("Digite um número: ");
     scanf("%d", &n);
-    quadrado = n * n;
+    quadrado = pow(n, 2);
     printf("O quadrado de %d é %d", n, quadrado);
 }
