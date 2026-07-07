@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+    int N;
+
+    while(1){
+        printf("Digite o número (se for = 0 encerra): ");
+        scanf("%d",&N);
+        if(N==0)
+            break;
+        int soma=0;
+        int impar=1;
+        int termos=0;
+
+        while(soma<N){
+            soma+=impar;
+            impar+=2;
+            termos++;
+        }
+
+        if(soma==N)
+            printf("Raiz = %d\n",termos);
+        else
+            printf("Não é um quadrado perfeito.\n");
+    }
+    return 0;
+}
