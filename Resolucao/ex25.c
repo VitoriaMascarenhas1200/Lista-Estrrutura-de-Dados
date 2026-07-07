@@ -3,7 +3,6 @@
 int main(){
     float largura, comprimento;
     float areaTotal = 0;
-
     int continuar = 1;
 
     while(continuar){

@@ -4,7 +4,6 @@ int main() {
     float altura, maior = 0, menor = 999;
     float somaMulheres = 0;
     int sexo;
-
     int homens = 0;
     int mulheres = 0;
     int mulheresAbaixo = 0;

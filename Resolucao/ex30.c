@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int num;
 
     printf("Digite um número entre 0 e 9: ");

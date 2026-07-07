@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main(){
-
     float altura;
     int sexo;
-
     float somaMulher=0;
     float somaTotal=0;
-
     int mulheres=0;
     int homens=0;
     int abaixo=0;

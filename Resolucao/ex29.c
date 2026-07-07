@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-
     int dias;
     int acima20=0;
     int totalHospedes=0;
